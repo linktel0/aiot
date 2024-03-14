@@ -1,0 +1,9 @@
+https://apk.support/app/host.exp.exponent/versions
+
+docker images
+
+docker build -t shop:linktel .
+docker run -it  -p 8081:8081 -p 8082:8082  -p 8086:8086 -v D:\expo\rn\shop:/opt/my-app/app shop:linktel
+docker run -it  --rm  --name=linktel -p 8081:8081 -p 8082:8082  -p 8086:8086 -v D:\expo\rn\shop:/opt/my-app/app shop:linktel
+
+
